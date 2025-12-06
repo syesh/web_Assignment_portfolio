@@ -1,4 +1,4 @@
-/* --- Variables for easy color changes --- */
+
 :root {
     --primary-color: #2563eb; 
     --black: #160a0a;   /* Professional Blue */
@@ -9,7 +9,7 @@
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Dark Mode Variables --- */
+
 body.dark-mode {
     --primary-color: #60a5fa;
     --bg-color: #111827;
@@ -18,7 +18,7 @@ body.dark-mode {
     --accent-text: #9ca3af;
 }
 
-/* --- Reset & Base Styles --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ body {
     line-height: 1.6;
 }
 
-/* --- Navigation --- */
+
 .navbar {
     background-color: var(--card-bg);
     padding: 1rem 2rem;
@@ -81,14 +81,13 @@ i{
     color: gray;
 }
 
-/* --- Layout Container --- */
+
 .container {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
 
-/* --- Header Section --- */
 .profile-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -116,7 +115,7 @@ i{
     color: var(--accent-text);
 }
 
-/* --- Cards --- */
+
 .card {
     background-color: var(--card-bg);
     padding: 2rem;
@@ -133,7 +132,7 @@ h2 {
     font-size: 1.4rem;
 }
 
-/* --- Resume Specifics --- */
+
 .timeline-item, .project-item {
     margin-bottom: 1rem;
 }
@@ -161,7 +160,7 @@ h2 {
     font-weight: 500;
 }
 
-/* --- Bio-data Table --- */
+
 .bio-table {
     width: 100%;
     border-collapse: collapse;
@@ -179,7 +178,7 @@ h2 {
     font-weight: 500;
 }
 
-/* --- Footer --- */
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -192,7 +191,7 @@ footer {
     text-decoration: underline;
 }
 
-/* --- Mobile Styling --- */
+
 @media (max-width: 600px) {
     .navbar {
         padding: 1rem;
